@@ -441,11 +441,13 @@ textarea {
 
 .products__button:hover::before,
 .products__button:hover::after,
-.products__button[aria-pressed='true']::before {
+.products__button[aria-pressed='true']::before,
+.products__button[aria-expanded='true']::before {
   opacity: 1;
 }
 
-.products__button[aria-pressed='true'] {
+.products__button[aria-pressed='true'],
+.products__button[aria-expanded='true'] {
   background: var(--navy);
   color: var(--white);
   border-color: var(--gold);
@@ -919,6 +921,16 @@ textarea {
 
   .form__row {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  /* Accordion: one product per row, its details opening right below its name. */
+  .products__list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .products__panel--inline {
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 
   /* Too narrow for side by side: photos above the details. */
