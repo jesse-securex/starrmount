@@ -15,7 +15,6 @@ export type Partner =
 
 export const partners: Partner[] = [
   { kind: 'logo', name: 'Rapiscan', image: 'rapii.png', width: 322, height: 156 },
-  { kind: 'logo', name: 'Garrett', image: 'garr.png', width: 599, height: 333 },
   { kind: 'icon-text', name: 'CASS', image: 'caaas.jpg', width: 153, height: 148 },
   { kind: 'logo', name: 'Turnstar', image: 'star.png', width: 156, height: 34 },
   { kind: 'logo', name: 'Hikvision', image: 'hik.png', width: 327, height: 43 },
