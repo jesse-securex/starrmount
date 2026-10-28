@@ -49,16 +49,6 @@ export const products: Product[] = [
     ],
   },
   {
-    id: 'garrett',
-    name: 'Garrett',
-    description: 'Garrett metal detectors for screening people at entrances, events and secure areas.',
-    points: ['Walk-through metal detector arches', 'Hand-held detector wands', 'Fixed and portable options'],
-    slides: [
-      { image: 'rap s.jpg', caption: 'Garrett walk-through metal detector', width: 266, height: 498 },
-      { image: 'gar.jpg', caption: 'Garrett Super Scanner hand-held wand', width: 423, height: 418 },
-    ],
-  },
-  {
     id: 'turnstiles',
     name: 'Turnstiles',
     description: 'Gates that let one person through at a time, opened by a card, tag, QR code or face reader.',

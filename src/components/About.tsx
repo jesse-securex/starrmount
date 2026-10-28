@@ -10,7 +10,7 @@ interface Reason {
 const reasons: Reason[] = [
   {
     title: 'Trusted brands',
-    text: 'Screening equipment from established names such as Rapiscan and Garrett.',
+    text: 'Screening equipment from established names such as Rapiscan.',
     Icon: ShieldCheckIcon,
   },
   {
